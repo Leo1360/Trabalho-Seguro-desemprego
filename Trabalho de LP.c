@@ -126,7 +126,7 @@ int main(){
 
             if((optsn == 's') || (optsn == 'S')){
                 printf("Por quantos meses continuos voce trabalho \nexclusivamente como domestico(a):\n>>> ");
-                scanf("%d",meses); //capoturando meses trabalhados
+                scanf("%d",&meses); //capoturando meses trabalhados
 
                 if (meses >= 15){
                     printf("Faz quantos meses que voce saiu:\n>>> ");
